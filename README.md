@@ -1,6 +1,6 @@
 # Pixel-Pet
 
-A fun and interactive virtual pet application built with React and Vite, where you can adopt, nurture, and play with your own digital companion!
+A fun and interactive virtual pet application built with React and Vite using Trae.ai, where you can adopt, nurture, and play with your own digital companion!
 
 ![Pixel-Pet Screenshot](src/assets/react.svg)
 
@@ -18,6 +18,7 @@ A fun and interactive virtual pet application built with React and Vite, where y
 - Vite
 - CSS Modules
 - React Hooks
+- Trae.ai : [https://www.trae.ai/]
 
 ## 🚀 Getting Started
 
