@@ -1,0 +1,86 @@
+.pixel-pet {
+  background: #faf7f7;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pet-display {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pet-sprite {
+  font-size: 5rem;
+  margin: 1rem 0;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.status-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-bar span {
+  min-width: 80px;
+  text-align: right;
+  color: #666;
+}
+
+.bar-container {
+  flex: 1;
+  height: 12px;
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, #a5d8ff, #74c0fc);
+  transition: width 0.3s ease;
+}
+
+.pet-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  background: #ffd8a8;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background: #ffc078;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
