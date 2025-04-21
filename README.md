@@ -18,7 +18,7 @@ A fun and interactive virtual pet application built with React and Vite using Tr
 - Vite
 - CSS Modules
 - React Hooks
-- Trae.ai : [https://www.trae.ai/]
+- [Trae.ai](https://www.trae.ai/)
 
 ## 🚀 Getting Started
 
